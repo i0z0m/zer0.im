@@ -73,18 +73,19 @@ export default function Home() {
             <Brain className="h-5 w-5 text-primary" />
             <h2 className="text-3xl font-bold">About Me</h2>
           </div>
-          <div className="h-1 w-20 bg-primary/30 rounded-full mb-8"></div>
+          <div className="h-1 w-20 bg-primary/30 rounded-full mb-3"></div>
+          <h3 className="text-xl text-primary font-medium mb-6">Takahiro Nakao</h3>
 
           <div className="flex flex-col md:flex-row gap-8 items-center">
             <div className="w-48 h-48 rounded-full relative group">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-full animate-pulse-slow"></div>
-              <div className="absolute inset-3 bg-secondary rounded-full flex items-center justify-center z-10 overflow-hidden">
+              <div className="absolute inset-0 bg-secondary rounded-full flex items-center justify-center z-10 overflow-hidden">
                 <Image 
                   src="/icon.png" 
-                  alt="Profile Icon" 
+                  alt="Takahiro Nakao" 
                   width={160} 
                   height={160} 
-                  className="object-cover"
+                  className="object-cover w-full h-full"
                 />
               </div>
               <div className="absolute inset-0 border-2 border-primary/30 rounded-full"></div>
