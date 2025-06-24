@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image"; // Add this import
 import { cn } from "@/lib/utils";
 import { Shield, Brain, Lock, Heart, KeyRound, Code, Users, Zap } from "lucide-react";
 
@@ -77,8 +78,14 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-8 items-center">
             <div className="w-48 h-48 rounded-full relative group">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-full animate-pulse-slow"></div>
-              <div className="absolute inset-3 bg-secondary rounded-full flex items-center justify-center z-10">
-                <span className="text-6xl">👨‍💻</span>
+              <div className="absolute inset-3 bg-secondary rounded-full flex items-center justify-center z-10 overflow-hidden">
+                <Image 
+                  src="/icon.png" 
+                  alt="Profile Icon" 
+                  width={160} 
+                  height={160} 
+                  className="object-cover"
+                />
               </div>
               <div className="absolute inset-0 border-2 border-primary/30 rounded-full"></div>
               <div className="absolute inset-0 border border-accent/20 rounded-full rotate-45"></div>
