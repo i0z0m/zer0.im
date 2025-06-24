@@ -19,11 +19,7 @@ export default function Home() {
       </div>
 
       {/* ヘッダーナビゲーション */}
-      <header className="py-6 px-8 flex justify-between items-center border-b border-border backdrop-blur-sm bg-background/80 sticky top-0 z-10">
-        <div className="font-mono text-xl font-bold flex items-center">
-          <Shield className="h-5 w-5 mr-2 text-primary" />
-          zer0.im
-        </div>
+      <header className="py-6 px-8 flex justify-center items-center border-b border-border backdrop-blur-sm bg-background/80 sticky top-0 z-10">
         <nav>
           <ul className="flex gap-6">
             <li><Link href="#about" className="hover:text-primary transition-colors">About</Link></li>
