@@ -43,7 +43,7 @@ export default function Home() {
         </div>
 
         <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-          <span className="text-primary">-1</span>→<span className="text-accent-foreground">0</span>
+          <span className="text-primary">z</span>→<span className="text-accent-foreground">-0</span>
         </h1>
 
         <p className="text-lg mb-8">
