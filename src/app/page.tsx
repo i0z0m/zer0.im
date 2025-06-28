@@ -122,7 +122,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold mb-4">バックエンド開発</h3>
               <ul className="list-disc pl-5 space-y-2">
                 <li>Node.js</li>
-                <li>Rust / Go</li>
+                <li>.NET / Ruby on Rails</li>
                 <li>API設計と実装</li>
                 <li>データベース設計</li>
               </ul>
