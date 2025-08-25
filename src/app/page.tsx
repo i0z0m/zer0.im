@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image"; // Add this import
 import { cn } from "@/lib/utils";
-import { Shield, Brain, Lock, Heart, KeyRound, Code, Users, Zap } from "lucide-react";
+import { Shield, Brain, Lock, Heart, Code, Users, Zap } from "lucide-react";
 
 export default function Home() {
   return (
