@@ -190,7 +190,7 @@ export default function Home() {
 
               <div className="p-6 relative z-10">
                 <h3 className="text-xl font-semibold mb-2">職場のストレスチェック</h3>
-                <p className="mb-4">従業員向けメンタルヘルスモニタリングシステム</p>
+                <p className="mb-4">従業員向けメンタルヘルスモニタリングシステム（就職活動用のポートフォリオ作品）</p>
                 <div className="flex gap-2 flex-wrap mb-4">
                   <span className="px-2 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">Typescript</span>
                   <span className="px-2 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">React</span>
@@ -216,11 +216,11 @@ export default function Home() {
               </div>
 
               <div className="p-6 relative z-10">
-                <h3 className="text-xl font-semibold mb-2">社会的つながりプラットフォーム</h3>
-                <p className="mb-4">匿名性と安全性を重視した孤立者向けコミュニティプラットフォーム</p>
+                <h3 className="text-xl font-semibold mb-2">ひきこもり向けCBTツール</h3>
+                <p className="mb-4">大学が行なっている研究（引きこもりに関する研究）のためのツール（実務経験のためNDAにより非公開）</p>
                 <div className="flex gap-2 flex-wrap mb-4">
-                  <span className="px-2 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">Vue.js</span>
-                  <span className="px-2 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">PostgreSQL</span>
+                  <span className="px-2 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">Ruby on Rails</span>
+                  <span className="px-2 py-1 bg-secondary text-secondary-foreground rounded-full text-xs">MySQL</span>
                 </div>
                 <a href="#" className="text-primary hover:underline inline-flex items-center gap-1">
                   詳細を見る <svg className="h-3 w-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
