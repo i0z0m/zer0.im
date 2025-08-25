@@ -26,7 +26,6 @@ export default function Home() {
             <li><Link href="#about" className="hover:text-primary transition-colors">About</Link></li>
             <li><Link href="#skills" className="hover:text-primary transition-colors">Skills</Link></li>
             <li><Link href="#projects" className="hover:text-primary transition-colors">Projects</Link></li>
-            <li><Link href="#contact" className="hover:text-primary transition-colors">Contact</Link></li>
           </ul>
         </nav>
       </header>
@@ -56,12 +55,6 @@ export default function Home() {
             className={cn("rounded-full bg-primary text-primary-foreground px-6 py-3 hover:bg-primary/90 transition-colors flex items-center gap-2")}
           >
             <Shield className="h-4 w-4" /> プロジェクトを見る
-          </Link>
-          <Link
-            href="#contact"
-            className={cn("rounded-full border border-border px-6 py-3 hover:bg-secondary transition-colors flex items-center gap-2")}
-          >
-            <KeyRound className="h-4 w-4" /> お問い合わせ
           </Link>
         </div>
       </section>
@@ -240,62 +233,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contactセクション */}
-      <section id="contact" className="py-16 px-8 relative">
-        <div className="max-w-3xl mx-auto">
-          <div className="flex items-center gap-2 mb-2">
-            <KeyRound className="h-5 w-5 text-primary" />
-            <h2 className="text-3xl font-bold">Contact</h2>
-          </div>
-          <div className="h-1 w-20 bg-primary/30 rounded-full mb-8"></div>
-
-          <div className="p-4 bg-primary/5 border border-primary/20 rounded-lg mb-8 inline-flex items-center gap-3">
-            <Lock className="h-5 w-5 text-primary flex-shrink-0" />
-            <p className="text-sm">プロジェクトの相談やお問い合わせはこちらからお願いします。</p>
-          </div>
-
-          <form className="space-y-6 bg-card/30 p-8 rounded-lg border border-border relative">
-            <div className="absolute inset-0 bg-[url('/pattern-dots.svg')] opacity-5 rounded-lg"></div>
-
-            <div className="relative z-10">
-              <label htmlFor="name" className="block mb-2 font-medium">お名前</label>
-              <input
-                type="text"
-                id="name"
-                className="w-full p-3 border border-border rounded-lg bg-background focus:outline-none focus:ring-2 focus:ring-primary"
-                placeholder="あなたのお名前"
-              />
-            </div>
-
-            <div className="relative z-10">
-              <label htmlFor="email" className="block mb-2 font-medium">メールアドレス</label>
-              <input
-                type="email"
-                id="email"
-                className="w-full p-3 border border-border rounded-lg bg-background focus:outline-none focus:ring-2 focus:ring-primary"
-                placeholder="example@domain.com"
-              />
-            </div>
-
-            <div className="relative z-10">
-              <label htmlFor="message" className="block mb-2 font-medium">メッセージ</label>
-              <textarea
-                id="message"
-                rows={5}
-                className="w-full p-3 border border-border rounded-lg bg-background focus:outline-none focus:ring-2 focus:ring-primary"
-                placeholder="プロジェクトについてのお問い合わせや協業のご提案をお寄せください"
-              ></textarea>
-            </div>
-
-            <button
-              type="submit"
-              className="px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors flex items-center gap-2"
-            >
-              <KeyRound className="h-4 w-4" /> 暗号化して送信
-            </button>
-          </form>
-        </div>
-      </section>
 
       {/* フッター */}
       <footer className="py-8 px-8 border-t border-border">
